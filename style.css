@@ -1,12 +1,4 @@
-@media (max-width: 480px) {
-    body {
-        font-size: 12px;
-        max-width: 100%;
-    }
-    .menu {
-        display: block; /* Stack menu items vertically on mobile */
-    }
-}
+
 body {
     background-image: url(images/image-lion-background.png);
     background-position: top center;
