@@ -1,0 +1,254 @@
+body {
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #FC5E55;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.125rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+nav {
+    text-align: right;
+
+}
+
+main {
+
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+
+    width: 30%;
+    background-image: url(images/image-background-card1-b.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.289);
+    /*first one ois for X-axis and the second one os for the y-axis and the third one is for the blur there is also text shadow  */
+
+
+}
+
+.card2 {
+    background-image: url(images/image-background-card2.jpg);
+    width: 30%;
+    background-position: bottom;
+    min-height: 250px;
+    background-size: cover;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.289);
+    /*first one ois for X-axis and the second one os for the y-axis and the third one is for the blur there is also text shadow  */
+
+}
+
+.card3 {
+    background-image: url(images/image-background-card3.jpg);
+    width: 30%;
+    background-position: bottom;
+    min-height: 250px;
+    background-size: cover;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.289);
+    /*first one ois for X-axis and the second one os for the y-axis and the third one is for the blur there is also text shadow  */
+
+}
+
+.herobox1 {
+    flex: 2;
+    padding-right: 100px;
+}
+
+.herobox2 {
+    flex: 1;
+
+}
+
+ 
+h1 {
+    font-size: 3.25rem;
+    font-family: 'playfair  display', serif;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+    margin-top: 20px;
+    font-family: 'playfair  display', serif;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    text-align: center;
+    margin: 10px 30px 20px 30px;
+    /*top right bottom left */
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.herobox1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.mybutton {
+    background-color: white;
+    color: #FA5E55 !important;
+    font-family: 'playfair  display', serif;
+    padding: 11px 25px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.289);
+    /*first one ois for X-axis and the second one os for the y-axis and the third one is for the blur there is also text shadow  */
+}
+
+.mybutton:hover {
+    background-color: rgba(127, 270, 178);
+    transition-duration: 1.5s;
+}
+
+a.mybutton {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.navbutton {
+
+    border: 1px solid white;
+    font-family: 'playfair  display';
+    padding: 11px 25px;
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-box {
+    display: none;
+    position: absolute;
+    padding-top: 20px;
+    text-align: center;
+    z-index: 1;
+
+}
+
+.navbutton:hover .dropdown-box {
+    display: block;
+}
+
+.dropdown-box .navbutton {
+    width: 120px;
+    background-color: white;
+    border-color: #FA5E55;
+    border-radius: 2px;
+
+}
+
+.dropdown-box .navbutton a {
+    color: #FA5E55;
+}
+
+
+.testimonials {
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 48%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+}
+
+/*
+.tbox :last-child{
+    font-size: 0.8rem;
+    padding-left:30px;
+}*/
+.tbox p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
+
+/*there is two ways to style them separatly from the psedu tags in css check css tricks.com*/
+.main2 {
+    padding-top: 50px;
+    font-family: 'playfair  display';
+    font-size: 20px;
+    min-height: 300px;
+}
+.inputwrapper{
+    margin-bottom: 20px;
+}
+input[type=text], input[type=email], textarea{
+    padding: 12px 20px;
+    width: 100%;
+    font-family: 'playfair  display';
+    font-size: 0.85rem;
+}
+label{
+   
+ margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-right: 10px;
+} 
+.submit-button{
+    padding: 11px 25px;
+    margin-bottom: 20px;
+    background-color:#FA5E55;
+    border-radius: 20px;
+    border-width: 0.5px;
+    
+}
+.country{
+    border-width: 2px;
+    padding:5px 10px;
+    border-radius: 20px;
+}
+
